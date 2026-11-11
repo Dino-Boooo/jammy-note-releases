@@ -2,36 +2,53 @@
 
 # Jammy Note
 
-A cute, lightweight sticky-note app for macOS, with note colors named after jam flavors. 🍓
+A small sticky-note app for macOS, with notes in jam colors.
 
-This repo only holds the downloads.
-
-## Download
-
-**[⬇︎ Download the latest version](https://github.com/Dino-Boooo/jammy-note-releases/releases/latest)**: get **Jammy-Note-x.y.z.zip** from the release page.
-
-Requires macOS 13 or later. Runs on Apple silicon and Intel Macs.
+**[Download the latest version](https://github.com/Dino-Boooo/jammy-note-releases/releases/latest)**: get **Jammy-Note-x.y.z.zip** from that page. Requires macOS 13 or later, on Apple silicon or Intel Macs.
 
 ## Install
 
 1. Open the zip to unzip **Jammy Note**.
 2. Drag **Jammy Note** into **Applications**.
-3. The first time you open it, macOS says it can't check the app. Click **Done**, go to **System Settings ▸ Privacy & Security**, scroll down, click **Open Anyway**, and enter your password. (On macOS 14 or earlier you can also right-click the app ▸ **Open**.)
+3. The first time you open it, macOS says it can't check the app. Click **Done**, go to **System Settings ▸ Privacy & Security**, scroll down, click **Open Anyway**, and enter your password.
+   - On macOS 14 or earlier, you can also right-click the app ▸ **Open**.
 
 ## Updates
 
-Jammy Note checks for new versions by itself (Settings ▸ Check for updates). When one is out, click **Update Now**: it downloads the update, replaces itself and reopens. Your notes and settings stay, and you won't need Open Anyway again.
+Jammy Note checks for new versions by itself. When one is out, a red dot shows on its menu bar icon: click **Update Now** and it downloads the update, replaces itself and reopens. Your notes and settings stay, and you won't need Open Anyway again.
 
----
+## How to use
 
-## 安裝
+**Write**
+- **New note**: ⌘N, or ⌃⌥N from any app
+- **Format**: select text and a toolbar pops up
+- **Lists**: start a line with `-`, `1.` or `[]` and a space
+- **Pictures**: paste or drop them in; drag a picture's corner to resize it
 
-1. 下載最新版的 **Jammy-Note-x.y.z.zip**：[⬇︎ 下載頁面](https://github.com/Dino-Boooo/jammy-note-releases/releases/latest)。
-2. 打開 zip，會解壓出 **Jammy Note**，把它拖進「應用程式」(Applications)。
-3. 第一次打開時 macOS 會說無法確認 App：先按「完成」，到 **系統設定 ▸ 隱私權與安全性**，往下按 **強制打開**（Open Anyway），再輸入密碼。（macOS 14 以前也可以對 App 按右鍵 ▸ 打開。）
+**Style a note**
+- **Drop button**: color and paper · **Aa**: font
+- **Shape button**: turns it into a tomato or orange; drag a fruit's lower corners to resize it
+- **Pin**: keeps it on top · double-click a note to fold it up
 
-需要 macOS 13 以上，Apple 晶片和 Intel Mac 都可以用。
+**Smart list**
+- Type **/** on a line and pick **Calendar** or **Reminder**, then write the date ("call mom fri 6:30pm"). When you move on, the line is in your calendar, and a tag under it shows the date.
+- Click a tag to take the line out of the calendar, or put it back. The bell beside an event's tag sets its alerts.
+- A **Smart note** (File ▸ New Smart Note) does this for every line, no / needed.
+- This needs your permission for Calendar and Reminders the first time.
 
-## 更新
+**Share**
+- A note's share button sends it as a picture, by Messages, Mail or AirDrop. Dropped on the Desktop of someone who has Jammy Note, it becomes a note again.
 
-Jammy Note 會自己檢查新版本（Settings ▸ Check for updates）。有新版時按 **Update Now**，它會自己下載、更新並重新打開；便利貼和設定都會保留，也不用再按「強制打開」。
+**Find notes**
+- **All Notes** (⌘F): search, filter by tag, reopen closed notes. **Edit** renames or deletes tags.
+- Closing a note (⌘W) only puts it away. Deleted notes wait in **Trash** for 30 days.
+
+| Shortcut | |
+|---|---|
+| New note | ⌘N · ⌃⌥N from any app |
+| All Notes | ⌘F · ⌃⌥F from any app |
+| Hide / show all notes | ⌃⌥H |
+| Settings | ⌘, |
+| Every shortcut | ⌘/ |
+
+Everything saves by itself. **Help ▸ Show Welcome Note** walks you through it, and **Send Feedback…** in the menu bar icon's menu reaches the jam maker.
